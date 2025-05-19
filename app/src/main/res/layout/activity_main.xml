@@ -11,27 +11,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingBottom="16dp"
+        android:paddingBottom="16sp"
         android:paddingRight="16dp"
         android:paddingLeft="16dp"
-        android:paddingTop="16dp" >
-
+        android:paddingTop="16sp" >
 
         <TextView
-            android:id="@+id/lblSaludo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Mi Primera Aplicación Móvil"
+            android:text="@string/titulo"
             android:textColor="@color/rojo"
-            android:textSize="20sp">
+            android:textSize="20sp"
+            android:id="@+id/lblSaludo"
+            android:gravity="center"
+            >
         </TextView>
 
         <EditText
             android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="¿Cuál es tu nombre?"
+            android:hint="@string/tunombre"
             android:inputType="text"
             android:autofillHints="name"
             android:id="@+id/txtNombre">
@@ -40,21 +40,21 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pulsame"
+            android:text="@string/pulsar"
             android:id="@+id/btnSaludar">
         </Button>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Limpiar"
+            android:text="@string/limpiar"
             android:id="@+id/btnLimpiar">
         </Button>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cerrar"
+        android:text="@string/cerrar"
         android:id="@+id/btnCerrar"
         android:textColor="@color/rojo" >
     </Button>
