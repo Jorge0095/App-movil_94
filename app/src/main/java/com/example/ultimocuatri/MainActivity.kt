@@ -64,14 +64,9 @@ class MainActivity : AppCompatActivity() {
         }) // Fin btnSaludar.
         btnLimpiar.setOnClickListener(View.OnClickListener {
             txtNombre.setText("")
-            lblSaludo.setText("")
+            lblSaludo.setText("Mi Primera Aplicación Móvil")
 
         }) // Fin btnLimpiar.
-
-
-
-
-
         btnCerrar.setOnClickListener(View.OnClickListener {
             val builder = AlertDialog.Builder(this)
             builder.setTitle("App Hola ")
@@ -92,10 +87,6 @@ class MainActivity : AppCompatActivity() {
             }
 
             builder.show()
-
         }) // Fin btnCerrar.
-
     } // Cierra función eventosBotones.
-
-
 } // Cierra la clase.

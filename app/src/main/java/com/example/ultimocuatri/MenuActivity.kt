@@ -50,6 +50,11 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, IMC::class.java)
             startActivity(intent)
         })
+        crvConvertir.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, Convertir::class.java)
+            startActivity(intent)
+        })
+
 
     }
 }

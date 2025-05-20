@@ -14,9 +14,21 @@
 
     <string name="resultado">Su resultado aparecerá aquí</string>
     <string name="imc">Práctica IMC</string>
-    <string name="altura">Captura la Altura</string>
-    <string name="peso">Captura el Peso</string>
+    <string name="altura">Captura la Altura (En metros)</string>
+    <string name="peso">Captura el Peso (En kg)</string>
     <string name="calcular">Calcular</string>
 
+    <string name="grados">Conversión de Grados</string>"
+    <string name="gradosCalc">Captura los grados a convertir</string>
+    <string name="far">Convertir de Celsius a Fahrenheit</string>
+    <string name="cel">Convertir de Fahrenheit a Celsius</string>
+    
+    <string name="monedas">Conversión de Monedas</string>
+    <string name="eur">Euros (€)</string>
+    <string name="usd">Dólares usd ($)</string>"
+    <string name="lib">Libras (£)</string>
+    <string name="cad">Dólares cad ($)</string>
+    <string name="solicitud">Cantidad a cambiar</string>
+    <string name="instrucción">Seleccione sólo una casillas para la conversión</string>
 
 </resources>

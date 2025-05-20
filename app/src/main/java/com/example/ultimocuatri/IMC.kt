@@ -59,7 +59,7 @@ class IMC : AppCompatActivity() {
         btnLimpiar.setOnClickListener(){
             txtAltura.setText("")
             txtPeso.setText("")
-            lblResultado.text = ""
+            lblResultado.text = "Su resultado aparecerá aquí"
         }
         btnCerrar.setOnClickListener(){
             val builder = AlertDialog.Builder(this)

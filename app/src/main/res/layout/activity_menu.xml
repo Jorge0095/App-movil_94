@@ -57,8 +57,8 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:contentDescription="@string/desImaCot"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="11sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="11sp"
                 android:layout_marginTop="11sp"
                 android:src="@drawable/alumno" />
 
