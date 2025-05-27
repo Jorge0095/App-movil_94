@@ -59,11 +59,11 @@ class IMC : AppCompatActivity() {
         btnLimpiar.setOnClickListener(){
             txtAltura.setText("")
             txtPeso.setText("")
-            lblResultado.text = "Su resultado aparecerá aquí"
+            lblResultado.text = getString(R.string.resultado)
         }
         btnCerrar.setOnClickListener(){
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("App Hola ")
+            builder.setTitle("IMC")
             builder.setMessage("¿Desea Cerrar la Aplicación?")
 
             builder.setPositiveButton("Si") { dialog, which ->

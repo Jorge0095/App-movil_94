@@ -22,13 +22,24 @@
     <string name="gradosCalc">Captura los grados a convertir</string>
     <string name="far">Convertir de Celsius a Fahrenheit</string>
     <string name="cel">Convertir de Fahrenheit a Celsius</string>
-    
+
     <string name="monedas">Conversión de Monedas</string>
-    <string name="eur">Euros (€)</string>
-    <string name="usd">Dólares usd ($)</string>"
-    <string name="lib">Libras (£)</string>
-    <string name="cad">Dólares cad ($)</string>
     <string name="solicitud">Cantidad a cambiar</string>
-    <string name="instrucción">Seleccione sólo una casillas para la conversión</string>
+    <string name="SwitchModo1">Modo Patrick</string>
+    <string name="SwitchModo2">Modo Propio  </string>
+    <string-array name="monedas">
+        <item>Dolares Americanos</item>
+        <item>Dolar Canadiense</item>
+        <item>Euros</item>
+        <item>Libras Esterlinas</item>
+    </string-array>
+    <string name="dolara">19.37</string>
+    <string name="dolarc">13.97</string>
+    <string name="euro">21.95</string>
+    <string name="libra">26.00</string>
+    <string name="eur">EUR €</string>
+    <string name="lib">GBP £</string>
+    <string name="usd">USD $</string>
+    <string name="cad">CAD $</string>
 
 </resources>

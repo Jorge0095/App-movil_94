@@ -50,12 +50,11 @@ class Convertir : AppCompatActivity() {
         })
         btnLimpiar.setOnClickListener(View.OnClickListener {
             txtCantidad.setText("")
-            txtResultado.setText("")
-            txtResultado.setText("@string/resultado")
+            txtResultado.text = getString(R.string.resultado)
         })
         btnCerrar.setOnClickListener(View.OnClickListener {
             val builder = AlertDialog.Builder(this)
-            builder.setTitle("App Hola ")
+            builder.setTitle("Convertir Grados")
             builder.setMessage("¿Desea Cerrar la Aplicación?")
 
             builder.setPositiveButton("Si") { dialog, which ->

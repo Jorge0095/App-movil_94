@@ -34,68 +34,127 @@
             android:layout_marginBottom="16sp">
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
+                android:inputType="numberDecimal"
                 android:hint="@string/solicitud"
-                android:textAlignment="center">
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:id="@+id/txtCantidad">
             </EditText>
         </LinearLayout>
         <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridPatrick"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:padding="16dp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/spnMoneda">
+
+            </Spinner>
+        </GridLayout>
+        <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/gridPropio"
             android:layout_gravity="center"
             android:columnCount="2"
             android:columnOrderPreserved="true"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="visible">
             <CheckBox
                 android:id="@+id/eur"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/eur" />
+                android:layout_column="0"
+                android:text="@string/euro"/>
+            <TextView
+                android:text="@string/eur"
+                android:paddingLeft="30sp"
+                android:layout_gravity="center"
+                android:layout_column="1"/>
             <CheckBox
                 android:id="@+id/lib"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_column="0"
                 android:layout_gravity="left|center_vertical"
-                android:text="@string/lib" />
+                android:text="@string/libra" />
+            <TextView
+                android:text="@string/lib"
+                android:paddingLeft="30sp"
+                android:layout_gravity="center"
+                android:layout_column="1"/>
             <CheckBox
                 android:id="@+id/usd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_column="0"
                 android:layout_gravity="center"
-                android:text="@string/usd" />
+                android:text="@string/dolara" />
+            <TextView
+                android:text="@string/usd"
+                android:paddingLeft="30sp"
+                android:paddingTop="15sp"
+                android:layout_column="1"/>
             <CheckBox
                 android:id="@+id/cad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/cad"/>
+                android:layout_column="0"
+                android:text="@string/dolarc"/>
+            <TextView
+                android:text="@string/cad"
+                android:paddingLeft="30sp"
+                android:layout_column="1"/>
         </GridLayout>
-        <LinearLayout
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="15sp"
-            android:gravity="center">
+            android:paddingTop="25sp"
+            android:rowCount="2"
+            android:columnCount="3"
+            android:layout_gravity="center">
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textColor="@color/letraenc"
-                android:text=""
+                android:textColor="@color/rojo"
+                android:text="@string/resultado"
+                android:layout_columnSpan="3"
+                android:layout_columnWeight="1"
+                android:paddingBottom="15dp"
+                android:id="@+id/lblResultado"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="8sp"
-                android:text="@string/calcular"/>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="8sp"
-                android:text="@string/limpiar"/>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cerrar"/>
+                android:layout_gravity="center"
+                android:layout_columnWeight="1"
+                android:text="@string/calcular"
+                android:id="@+id/btnCalcular"/>
 
-        </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="@string/limpiar"
+                android:id="@+id/btnLimpiar"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_columnWeight="1"
+                android:text="@string/cerrar"
+                android:id="@+id/btnCerrar"/>
+
+        </GridLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -104,18 +163,16 @@
                 android:id="@+id/switchModo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100sp"
-                android:text="@string/resultado" />
+                android:layout_marginLeft="184sp"/>
             <TextView
+                android:id="@+id/indicadorModo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/instrucción"
-                android:textColor="@color/rojo"
-                android:textSize="16sp"
-                android:visibility="invisible"
                 android:layout_below="@+id/switchModo"
-                android:textAlignment="center">
-            </TextView>
+                android:paddingTop="8sp"
+                android:gravity="center"
+                android:text="@string/SwitchModo2"
+                android:textColor="@color/white"/>
         </RelativeLayout>
 
     </LinearLayout>
