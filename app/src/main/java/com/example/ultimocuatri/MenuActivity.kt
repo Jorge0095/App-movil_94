@@ -58,5 +58,10 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, Monedas::class.java)
             startActivity(intent)
         })
+        crvCotizacion.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, Cliente::class.java)
+            startActivity(intent)
+        })
+
     }
 }

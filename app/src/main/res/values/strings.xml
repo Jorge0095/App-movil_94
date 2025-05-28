@@ -42,4 +42,17 @@
     <string name="usd">USD $</string>
     <string name="cad">CAD $</string>
 
+    <string name="domicilio">Av. del Mar 1200</string>
+    <string name="ciudad">Mazatlán Sinaloa</string>
+    <string name="marca">Toyota</string>
+    <string name="cliente">Nombre del Cliente</string>
+    <string name="folio">Num. Folio</string>
+    <string name="des">Descripción del Automóvil</string>
+    <string name="precio">Valor del Automóvil</string>
+    <string name="po">Porcentaje de pago Inicial</string>
+    <string name="plazos">Plazos</string>
+    <string name="pmensual">Pago Mensual</string>
+    <string name="pinicial">Pago Inicial</string>
+    <string name="tfin">Total a Financiar</string>
+
 </resources>
