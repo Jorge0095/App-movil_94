@@ -6,11 +6,13 @@
     <string name="limpiar">Limpiar</string>
     <string name="cerrar">Cerrar</string>
 
+
     <string name="miempresa">Servicios Informáticos</string>
     <string name="alumno">Jorge Luis Zamudio Osuna</string>
     <string name="matricula">2022030095</string>
     <string name="materia">Desarrollo Móvil</string>
     <string name="desImaCot">Logo Toyota</string>
+
 
     <string name="resultado">Su resultado aparecerá aquí</string>
     <string name="imc">Práctica IMC</string>
@@ -18,21 +20,25 @@
     <string name="peso">Captura el Peso (En kg)</string>
     <string name="calcular">Calcular</string>
 
+
     <string name="grados">Conversión de Grados</string>"
     <string name="gradosCalc">Captura los grados a convertir</string>
     <string name="far">Convertir de Celsius a Fahrenheit</string>
     <string name="cel">Convertir de Fahrenheit a Celsius</string>
 
+
     <string name="monedas">Conversión de Monedas</string>
     <string name="solicitud">Cantidad a cambiar</string>
     <string name="SwitchModo1">Modo Patrick</string>
     <string name="SwitchModo2">Modo Propio  </string>
+
     <string-array name="monedas">
         <item>Dolares Americanos</item>
         <item>Dolar Canadiense</item>
         <item>Euros</item>
         <item>Libras Esterlinas</item>
     </string-array>
+
     <string name="dolara">19.37</string>
     <string name="dolarc">13.97</string>
     <string name="euro">21.95</string>
@@ -41,6 +47,7 @@
     <string name="lib">GBP £</string>
     <string name="usd">USD $</string>
     <string name="cad">CAD $</string>
+
 
     <string name="domicilio">Av. del Mar 1200</string>
     <string name="ciudad">Mazatlán Sinaloa</string>
@@ -52,7 +59,24 @@
     <string name="po">Porcentaje de pago Inicial</string>
     <string name="plazos">Plazos</string>
     <string name="pmensual">Pago Mensual</string>
-    <string name="pinicial">Pago Inicial</string>
+    <string name="pinicial">Porcentaje de Pago Inicial</string>
     <string name="tfin">Total a Financiar</string>
 
+
+    <string name="spinner_name">Spinner Personalizado</string>
+
+    <string name="itemFrases"> Categorías de Frases</string>
+    <string name="itemAgradecimiento">Agradecimiento</string>
+    <string name="itemAmor">Amor</string>
+    <string name="itemNewYear">Feliz Año Nuevo</string>
+    <string name="itemCanciones">Canciones</string>
+
+    <string name="msgFrase">Desplegar</string>
+    <string name="msgAgradecimiento">Prueba dar las Gracias</string>
+    <string name="msgAmor"> Enamora con estas frases</string>
+    <string name="msgNewYear">Feliz Año Nuevo</string>
+    <string name="msgCanciones">Escucha solo lo mejor</string>
+
+    <string name="msgSeleccion">Se ha Seleccionado</string>
+    <string name="msgDescripcion">Selecciona una Categoria</string>
 </resources>

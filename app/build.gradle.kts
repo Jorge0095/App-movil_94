@@ -45,4 +45,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation("androidx.core:core-ktx:1.12.0") // O una versión más reciente
+    implementation("androidx.appcompat:appcompat:1.6.1") // O una versión más reciente
+    implementation("com.google.android.material:material:1.11.0") // O una versión más reciente
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // O una versión más reciente
+
+    // Asegúrate de que esta dependencia (o una más reciente) esté presente:
+    implementation("androidx.activity:activity-ktx:1.8.2") // O la versión más reciente disponible
+
+    // Otras dependencias...
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
 }

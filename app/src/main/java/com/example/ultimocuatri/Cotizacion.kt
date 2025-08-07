@@ -102,7 +102,7 @@ class Cotizacion : AppCompatActivity() {
                 if (rdb48.isChecked) cotizacion.plazos = 48
                 // Calculos
                 txtPagoInicial.text = getString(R.string.pinicial) + ": " + cotizacion.calcularPagoInicial().toString()
-                txtTotalFin.text = getString(R.string.tfin) + ": " + cotizacion.calcularTotalFin().toString() + ":" + cotizacion.calcularPagoInicial().toString()
+                txtTotalFin.text = getString(R.string.tfin) + ": " + cotizacion.calcularTotalFin().toString()
                 txtPagoMensual.text = getString(R.string.pmensual) + ": " + cotizacion.calcularPagoInicial().toString()
             }
         })
