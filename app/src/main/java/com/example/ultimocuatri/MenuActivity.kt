@@ -18,6 +18,7 @@ class MenuActivity : AppCompatActivity() {
     private lateinit var crvMonedas : CardView
     private lateinit var crvCotizacion : CardView
     private lateinit var crvSpiner : CardView
+    private lateinit var crvListView : CardView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,6 +65,10 @@ class MenuActivity : AppCompatActivity() {
         })
         crvSpiner.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, SpinnerActividad::class.java)
+            startActivity(intent)
+        })
+        crvListView.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, ListViewActividad::class.java)
             startActivity(intent)
         })
 

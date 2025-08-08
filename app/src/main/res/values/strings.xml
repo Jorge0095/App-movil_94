@@ -79,4 +79,22 @@
 
     <string name="msgSeleccion">Se ha Seleccionado</string>
     <string name="msgDescripcion">Selecciona una Categoria</string>
+
+    <string name="al1_nom"></string>
+    <string name="al1_matr"></string>
+    <string name="al1_carrera"></string>
+
+    <string name="al2_nom"></string>
+    <string name="al2_matr"></string>
+    <string name="al2_carrera"></string>
+
+    <string name="al3_nom"></string>
+    <string name="al3_matr"></string>
+    <string name="al3_carrera"></string>
+
+    <string name="al4_nom"></string>
+    <string name="al4_matr"></string>
+    <string name="al4_carrera"></string>
+
+    <string name="noSelect">No has seleccionado nada</string>
 </resources>
